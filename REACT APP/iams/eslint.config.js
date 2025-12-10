@@ -25,5 +25,17 @@ export default defineConfig([
     rules: {
       'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
     },
+
+    theme: {
+  extend: {
+    colors: {
+      primary: "#3546A0",
+      "primary-light": "#425EE8",
+      input: "#F2F2F2",
+    },
+  },
+},
+
+  
   },
 ])
